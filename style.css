@@ -4,8 +4,14 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    
 }
-
+html{
+    font-family: 'Borel', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'REM', sans-serif;
+}
 .logo{
     width: 60%;
 }
