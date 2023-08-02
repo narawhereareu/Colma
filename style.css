@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-img{
+.logo{
     width: 60%;
 }
 header{
@@ -15,6 +15,7 @@ header{
     align-items: center;
     height: 64px;
     width: 100%;
+    border-bottom: black solid;
 }
 
 .leftsize{
@@ -50,7 +51,7 @@ header{
 }
 
 /**/
-section{
+.banner{
     display: flex;
     padding: 32px 24px;
     background-color: 	#D3D3D3;
@@ -67,9 +68,53 @@ section{
     width: 100%;
 }
 
+.detail h1 p{
+    font-size: 2em;
+}
+
 button{
     color: white;
     background-color: brown;
     width: 50%;
+    height: auto;
     padding: 8px;
+}
+
+
+
+/**/
+
+.infomation{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.containerinfo{
+    padding: 32px 24px;
+    
+}
+
+.boxcontent{
+    display: flex;
+    flex-direction: column;
+}
+
+.campus-box{
+    padding-top: 32px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.phocampus{
+    height: auto;
+    width: 20%;
+}
+.textcampus{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
